@@ -9,9 +9,10 @@ function App() {
 
   return (
     <>
-      <Student name="Justus" age={40} isStudent={true} />
+      <Student name={"Justus"} age={40} isStudent={true} />
       <Student name="Tim" age={50} isStudent={false} />
-    <Student name ="Jacob " age={24} isStudent={true}/>
+      <Student name ="Jacob " age={24} isStudent={true}/>
+      <Student  />
     </>
   )
 }
